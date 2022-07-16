@@ -139,17 +139,6 @@ a {
   margin: 30px auto;
 }
 
-.cv:hover {
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
-}
-
-.cv:active {
-  cursor: grabbing;
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
-}
 
 .mainDetails {
   padding: 25px 35px;
