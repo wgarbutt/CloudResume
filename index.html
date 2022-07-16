@@ -1,5 +1,12 @@
 <head>
   <link rel="stylesheet" href="style.css">
+  <script>
+    fetch('https://5cabfxax81.execute-api.ap-southeast-2.amazonaws.com/Prod')
+        .then(response => response.json())
+        .then((data) => {
+          document.getElementById('replaceme').innerText = data.count
+        })
+  </script>
 </head>
 
 <body>
@@ -137,7 +144,11 @@
         
           
           <article>
-            <p class="subDetails">t Verify my credentials via Credly <a href="https://www.credly.com/users/will-garbutt/badges">Here!</a></p> 
+            <p class="subDetails">Verify my credentials via Credly <a href="https://www.credly.com/users/will-garbutt/badges">Here!</a></p> 
+            <p></p>
+          </article>
+          <article>
+            <p class="subDetails">You are visitor number <span id="replaceme" /></p> 
             <p></p>
           </article>
         </div>
