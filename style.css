@@ -100,7 +100,6 @@ html,
 body {
   background: #fff;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  /*font-feature-settings: "calt","liga","hist","onum","pnum";*/
   font-size: 1rem;
   color: #222;
 }
