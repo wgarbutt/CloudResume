@@ -279,8 +279,12 @@ section:last-child {
 }
 
 
-
-
+h3 {
+  color: #cf8a05; /* Replace with the desired color code */
+}
+h4 {
+  color: #000000; /* Replace with the desired color code */
+}
 
 
 
